@@ -1,0 +1,10 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"script",
+	"author":	"ZenExport",
+	"description":	{
+		"":	"Automated local backup system with versioning, thumbnails, and instant access."
+	},
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
